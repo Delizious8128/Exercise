@@ -1,5 +1,9 @@
 print('Hello World')
-
+import numpy as np
+import scipy.stats as st
+import matplotlib.pyplot as plt
+import math as m
+# Data
 x = np.array([139.0, 138.0, 139.0, 120.5, 149.0, 141.0, 141.0, 150.0, 166.0, 151.5, 129.5, 150.0])
 y = np.array([110, 60, 90, 60, 85, 100, 95, 85, 155, 140, 105, 110])
 
